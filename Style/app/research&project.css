@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Angkor&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+
+.header-banner .image-banner {
+  width: 100%;
+  height: calc(70vh);
+  min-height: 300px;
+  max-height: 500px;
+  background: linear-gradient(270deg, rgba(2, 85, 138, 0) 0%, rgb(2, 85, 138) 100%) 50% 0% / cover, url('/assets/research/research.c24e97a8.jpg');
+  background-position: 50% 0%;
+  transition: all 250ms linear 0s, transform 150ms ease-in-out 0s, max-height 250ms ease 0s;
+}
+
+.item-container {
+  height: auto;
+}
+
+.item-container .image-container{
+  position: relative;
+  overflow: hidden;
+  height: 35vh;
+}
+
+.item-container .image-container #image-link img{
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
+  height: fit-content;
+  width: 100%;
+}
+
+.item-container .image-container #image-link:hover img{
+  transform: scale(1.7);
+}
+
+.footer-section {
+  background: linear-gradient(0deg, #001f30, #014164);
+}
+
+p.footer-header {
+  color: rgb(203, 203, 203);
+  padding-left: 0px;
+  font-family: 'Manrope', sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+a.footer-address {
+  color: #e5e5e5;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+img.footer-image {
+  height: 2.5rem;
+}
+
+p.school-title-khmer {
+  font-family: 'Angkor', cursive;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
